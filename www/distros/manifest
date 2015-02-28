@@ -1,0 +1,17 @@
+  {
+    "name": "cassandra",
+    "vendor": "APACHE",
+    "version": "0.0.1",
+    "packages": [
+      {
+        "roles": [
+          "zookeeper",
+          "cassandra_seed",
+          "cassandra_node"
+        ],
+        "package_repos": [
+          "https://hadoop-mgmt.or1.omniture.com/yum/bigtop.repo"
+        ]
+      }
+    ]
+  },
